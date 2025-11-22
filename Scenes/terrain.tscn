@@ -1,0 +1,11 @@
+[gd_scene load_steps=2 format=3 uid="uid://gui0tg1caing"]
+
+[sub_resource type="TileSet" id="TileSet_mqean"]
+terrain_set_0/mode = 0
+terrain_set_0/terrain_0/name = "grass_path"
+terrain_set_0/terrain_0/color = Color(0, 0, 0, 1)
+
+[node name="Terrain" type="TileMap"]
+tile_set = SubResource("TileSet_mqean")
+rendering_quadrant_size = 8
+format = 2
